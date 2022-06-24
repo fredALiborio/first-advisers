@@ -1,4 +1,4 @@
-import Nav from "../components/shared/Nav";
+import Nav from "../components/shared/NavBar";
 
 export default function Services(props) {
     return(
@@ -13,6 +13,8 @@ export default function Services(props) {
             Recursos Humanos / Processamento de Salários
             Facturação  
             Seguros e Produtos Financeiros
+
+            NO FINAL mail para enviarem se quiserem algum serviço
         </div>
     )
 }

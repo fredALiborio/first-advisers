@@ -15,26 +15,26 @@ import { ChevronDownIcon } from '@chakra-ui/core'
 import { useState } from "react";
 
 
-export default function Nav(props) {
+export default function NavBar(props) {
 
     const[isActive, setIsActive] = useState(false);
 
     return (
-        <div className="flex flex-row w-screen bg-white">
+        <div className="flex flex-row w-screen bg-slate-50">
             <div className="w-48 ml-10 p-4">
                 <img src="logo.png"/>
             </div>
-            <div className="flex justify-end w-full items-center bg-white space-x-10 p-10 text-black text-base rounded-md">
+            <div className="flex justify-end w-full items-center bg-slate-50 space-x-10 p-10 text-sky-900 text-lg rounded-md">
                 <Link 
-                    href="/home"><a className='hover:text-blue-400'>Home</a></Link>
+                    href="/home"><a className='hover:opacity-60'>Home</a></Link>
                 <Link 
                     href="/about_us" 
-                    className=""><a className='hover:text-blue-400'>Sobre Nós</a></Link>
+                    className=""><a className='hover:opacity-60'>Sobre Nós</a></Link>
                     <Box 
                         onMouseEnter={() => setIsActive(true)} 
                         onMouseLeave={() => setIsActive(false)}>
-                        <button className="bg-white list-none text-black text-base divide-gray-100 inline-flex items-center">
-                            <a className='hover:text-blue-400'>Serviços</a>
+                        <button className="bg-slate-50 list-none text-sky-900 text-lg divide-gray-100 inline-flex items-center">
+                            <a className='hover:opacity-60'>Serviços</a>
                         </button>
                         { isActive==true ? 
                             <menu className="absolute bg-white text-base list-none divide-y divide-gray-200 shadow-lg my-2 rounded-sm p-2 border-spacing-1 border-gray-400 border-1 -bottom-24">
@@ -59,10 +59,10 @@ export default function Nav(props) {
                     </Box>
                 <Link 
                     href="/clients" 
-                    className=""><a className='hover:text-blue-400'>Parcerias</a></Link>
+                    className=""><a className='hover:opacity-60'>Parcerias</a></Link>
                 <Link 
                     href="/contacts" 
-                    className=""><a className='hover:text-blue-400'>Contactos</a></Link>
+                    className=""><a className='hover:opacity-60'>Contactos</a></Link>
             </div>
             <div className="flex w-80 items-center mr-20 ml-20 space-x-3">
                 <div>

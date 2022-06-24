@@ -1,4 +1,4 @@
-import Nav from "../components/shared/Nav";
+import Nav from "../components/shared/NavBar";
 
 export default function Clients(props) {
     return(

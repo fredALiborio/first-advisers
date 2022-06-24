@@ -1,5 +1,4 @@
-import Nav from "../components/shared/Nav";
-import NavBar from "../components/NavBar";
+import Nav from "../components/shared/NavBar";
 import Link from "next/link";
 import Home from "./home";
 
@@ -14,7 +13,7 @@ export default function Index() {
           </div> */}
       {/* <img src="logo.png"/> */}
       
-      <div>
+      <div className="bg-blue-400 min-h-screen">
         <Home></Home>
       </div>
     </>
