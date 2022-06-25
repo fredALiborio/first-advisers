@@ -6,7 +6,7 @@ export default function Contacts(props) {
             <div>
                 <Nav></Nav>
             </div>
-            <h1 className="flex justify-center text-9xl">Contactos</h1>
+            <h1 className="flex relative justify-center text-9xl">Contactos</h1>
         </div>
     )
 }

@@ -54,12 +54,31 @@ export default function Home(props) {
                         </div>
                     </div>
                 </div>
-            <div className="flex flex-col justify-end items-center bg-gray-200 h-screen">
-                   <div className="flex bg-slate-300 h-96 w-96">
-                       teste
-                   </div>
-                   
-            </div>
+                <div className="flex flex-row justify-center items-center bg-slate-200 h-screen w-full">
+                    <div className="flex relative  h-96 w-full top-48 -right-32 left-0">
+                        <div className="grid grid-rows-3 w-full justify-center h-60">
+                            <div className="flex justify-center h-10 w-96 p-5">
+                                <h1 className="flex font-semibold text-2xl text-sky-900">EQUIPA</h1>
+                            </div>
+                                <div className="grid grid-cols-2 h-24 gap-10">
+                                    <div className="flex justify-center  items-center">
+                                        <img className="inline object-cover w-32 mr-2 rounded-full" src="fred.jpeg" alt="Profile image" />
+                                    </div>
+                                    <div className="flex justify-center items-center">
+                                        <img className="inline object-cover w-32 mr-2 rounded-full" src="fred.jpeg" alt="Profile image" />
+                                    </div>
+                                </div>
+                                <div className="grid grid-cols-2 justify-center gap-10">
+                                    <div className="flex justify-center items-end">
+                                        <h1 className="font-semibold text-sky-900">Financial Advisor</h1>
+                                    </div>
+                                    <div className="flex justify-center items-end">
+                                        <h1 className="font-semibold text-sky-900">Capital Market Diretor</h1>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                </div>
             <Footer></Footer>
         </div>
     )
