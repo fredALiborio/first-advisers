@@ -22,9 +22,11 @@ export default function NavBar(props) {
     return (
         <div className="flex flex-row w-screen bg-slate-50">
             <div className="w-48 ml-10 p-4">
-                <img src="logo.png"/>
+                <a href='/home'>
+                    <img src="logo.png"/>
+                </a>
             </div>
-            <div className="flex justify-end w-full items-center bg-slate-50 space-x-10 p-10 text-sky-900 text-lg rounded-md">
+            <div className="flex justify-end w-full items-center bg-slate-50 space-x-10 p-10 text-sky-900 text-lg font-semibold rounded-md">
                 <Link 
                     href="/home"><a className='hover:opacity-60'>Home</a></Link>
                 <Link 
@@ -68,7 +70,7 @@ export default function NavBar(props) {
                 <div>
                     <SearchIcon size='5em' />
                 </div>
-                <Input placeholder='Pesquisar...' size='sm' variant="flushed"  _placeholder={{ color: 'gray' }}/>
+                <Input placeholder='Pesquisar...' size='md' variant="flushed"  _placeholder={{ color: 'gray' }}/>
             </div>
         </div>
     )
