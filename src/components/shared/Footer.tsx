@@ -13,8 +13,8 @@ export default function Footer(props) {
                 <div className="flex space-x-10">
                     <div className="flex">
                         <ul>
-                            <li className="text-lg m-6 font-semibold text-sky-900">Rua Fernando Pedroso, 23 1000-130 Lisboa</li>
-                            <li className="text-lg m-6 font-semibold text-sky-900">Telef.: +351 91 364 25  46</li>
+                            <li className="text-base m-4 font-semibold text-sky-900">Rua Fernando Pedroso, 23 1000-130 Lisboa</li>
+                            <li className="text-base m-4 font-semibold text-sky-900">Telef.: +351 91 364 25  46</li>
                         </ul>
                     </div>
                 </div>
@@ -27,14 +27,14 @@ export default function Footer(props) {
                 <div className="flex space-x-10">
                     <div className="flex">
                         <ul>
-                            <li className="text-lg m-6 font-semibold text-sky-900 underline"><Link href="/clients">Sobre Nós</Link></li>
-                            <li className="text-lg m-6 font-semibold text-sky-900 underline"><Link href="/clients">Serviços</Link></li>
+                            <li className="text-base m-4 font-semibold text-sky-900 underline"><Link href="/clients">Sobre Nós</Link></li>
+                            <li className="text-base m-4 font-semibold text-sky-900 underline"><Link href="/clients">Serviços</Link></li>
                         </ul>
                     </div>
                     <div className="flex">
                         <ul>
-                            <li className="text-lg m-6 font-semibold text-sky-900 underline"><Link href="/clients" >Parcerias</Link></li>
-                            <li className="text-lg m-6 font-semibold text-sky-900 underline"><Link href="/clients" >Contactos</Link></li>
+                            <li className="text-base m-4 font-semibold text-sky-900 underline"><Link href="/clients" >Parcerias</Link></li>
+                            <li className="text-base m-4 font-semibold text-sky-900 underline"><Link href="/clients" >Contactos</Link></li>
                         </ul>
                     </div>
                 </div>
